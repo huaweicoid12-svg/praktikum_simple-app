@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        IMAGE_NAME = 'USERNAME_DOCKERHUB/simple-app-jenkins'
+        IMAGE_NAME = 'muhammadaryas/simple-app-jenkins'
         REGISTRY_CREDENTIALS = 'dockerhub-credentials'
     }
     stages {
